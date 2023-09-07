@@ -23,16 +23,16 @@ const App = () => {
     super(props);
     this.state = {
       expenses: [
-        { id: 1, charge: '렌트비', amount: 1600 },
-        { id: 2, charge: '교통비', amount: 400 },
-        { id: 3, charge: '식비', amount: 1200 }
+        { id: 1, charge: '렌트비', amount: 5000 },
+        { id: 2, charge: '교통비', amount: 1500 },
+        { id: 3, charge: '식비', amount: 10000 }
       ]
     }
   } */
   const [expenses, setExpenses] = useState([
-    { id: 1, charge: '렌트비', amount: 1600 },
-    { id: 2, charge: '교통비', amount: 400 },
-    { id: 3, charge: '식비', amount: 1200 }
+    { id: 1, charge: '렌트비', amount: 5000 },
+    { id: 2, charge: '교통비', amount: 1500 },
+    { id: 3, charge: '식비', amount: 10000 }
   ])
 
   const clearItems = () => {
